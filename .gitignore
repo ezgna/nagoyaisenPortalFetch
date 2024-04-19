@@ -64,3 +64,14 @@ node_modules/
 
 # dotenv environment variables file
 .env
+
+
+# Google Cloud Service Accountの秘密鍵ファイルを無視
+*.json
+
+# 特定のファイルを無視
+nagoyaisenportalfetch-firebase-adminsdk-mvkum-c83bed369d.json
+functions/nagoyaisen-app-firebase-adminsdk-n99a8-56c5212028.json
+
+# 特定のフォルダ内の全ファイルを無視
+secrets/
