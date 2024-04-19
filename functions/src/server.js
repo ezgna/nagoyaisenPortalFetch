@@ -1,7 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import { login, scrapeContent, checkForTopContent, checkCookiesValidity } from './scraper.js';
-import { firestore } from '../firebase/firebaseAdminInit.js';
+import { firestore } from '../firebaseAdminInit.js';
 import { httpsPort, privateKeyPath, certificatePath } from '../config.js';
 import fs from 'fs';
 import https from 'https';
@@ -14,12 +14,25 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 app.use(cookieParser());
+
+// Cache-Controlヘッダーを追加するミドルウェア
+app.use((req, res, next) => {
+  res.setHeader('Cache-Control', 'no-cache, no-store, must-revalidate');
+  next();
+});
+
+// X-Content-Type-Optionsヘッダーを追加するミドルウェア
+app.use((req, res, next) => {
+  res.setHeader('X-Content-Type-Options', 'nosniff');
+  next();
+});
+
 const privateKey = fs.readFileSync(privateKeyPath, 'utf8');
 const certificate = fs.readFileSync(certificatePath, 'utf8');
 const credentials = { key: privateKey, cert: certificate };
 const httpsServer = https.createServer(credentials, app);
 
-app.post('/api/login', async (req, res) => {
+app.post('api/login', async (req, res) => {
   const { username, password } = req.body;
   try {
     const { isLoggedIn, browser, page, isenCookies } = await login(username, password);
@@ -109,8 +122,16 @@ app.post('/api/refresh', async (req, res) => {
       return res.status(401).json({ message: 'Unauthorized', redirectTo: '/login' });
     }
 
-    const { isenCookies } = sessionDoc.data();
-    //　もしisenCookiesが使えなくなったときにウェブアプリ側のセッションIDも無効にして、再ログインさせる。
+    const sessionData = sessionDoc.data();
+    const { isenCookies, expires } = sessionData;
+
+    // セッションの有効期限をチェック
+    if (expires <= Date.now()) {
+      console.log('Session expired');
+      return res.status(401).json({ message: 'Session expired', redirectTo: '/login' });
+    }
+
+    // クッキーの有効性をチェック
     const isCookiesValid = await checkCookiesValidity(isenCookies);
     if (!isCookiesValid) {
       console.log('Cookies are not valid');
@@ -147,6 +168,8 @@ app.post('/api/refresh', async (req, res) => {
   }
 });
 
-httpsServer.listen(httpsPort, () => {
-  console.log(`HTTPS Server listening at https://localhost:${httpsPort}`);
-});
+// httpsServer.listen(httpsPort, () => {
+//   console.log(`HTTPS Server listening at https://localhost:${httpsPort}`);
+// });
+
+export default app;

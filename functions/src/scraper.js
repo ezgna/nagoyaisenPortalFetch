@@ -1,7 +1,7 @@
 import puppeteer from 'puppeteer';
 import https from 'https';
-import { uploadStream } from '../firebase/firebaseAdminInit.js';
-
+import { uploadStream } from '../firebaseAdminInit.js';
+import axios from 'axios';
 
 async function login(username, password) {
   let browser = null;
@@ -229,7 +229,8 @@ async function checkCookiesValidity(isenCookies) {
     const response = await axios.get('https://portal.nkz.ac.jp/portal/top.do', {
       headers: {
         'Cookie': `JSESSIONID=${isenCookies.JSESSIONID}`
-      }
+      },
+      httpsAgent: agent
     });
     return response.status === 200;
   } catch (error) {

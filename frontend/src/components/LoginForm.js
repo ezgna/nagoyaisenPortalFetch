@@ -11,7 +11,7 @@ const LoginForm = ({ onLoginSuccess, setData, setLoading }) => {
   const fetchData = async () => {
     setLoading(true);
     try {
-      const response = await axios.get('/api/data');
+      const response = await axios.get(`api/data`);
       setData(response.data);
     } catch (error) {
       console.error('There was an error fetching the data:', error);
@@ -24,7 +24,7 @@ const LoginForm = ({ onLoginSuccess, setData, setLoading }) => {
     e.preventDefault();
     setIsSubmitting(true);
     try {
-      await axios.post('/api/login', { username, password });
+      await axios.post(`api/login`, { username, password });
       onLoginSuccess();
       fetchData();
     } catch (error) {

@@ -1,0 +1,18 @@
+{
+    "name": "root",
+    "private": true,
+    "workspaces": [
+        "frontend"
+    ],
+    "scripts": {
+        "install": "npm install",
+        "start": "npm start --prefix frontend",
+        "build": "npm run build --prefix frontend",
+        "deploy": "firebase deploy --only hosting,functions"
+    },
+    "type": "module",
+    "dependencies": {
+        "dotenv": "^16.4.5",
+        "puppeteer": "^22.6.5"
+    }
+}

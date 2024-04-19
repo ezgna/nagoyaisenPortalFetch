@@ -16,9 +16,10 @@ const DataDisplay = ({ data, setData, loading, setLoading, setLoggedIn }) => {
   const handleRefresh = async () => {
     setLoading(true);
     try {
-      const refreshResponse = await axios.post('/api/refresh');
+      console.log(process.env.REACT_APP_API_URL);
+      const refreshResponse = await axios.post(`/api/refresh`);
       if (refreshResponse.data.message === 'Data refreshed successfully') {
-        const dataResponse = await axios.get('/api/data');
+        const dataResponse = await axios.get(`/api/data`);
         setData(dataResponse.data);
         console.log('refresh finished')
       }

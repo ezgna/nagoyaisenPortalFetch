@@ -1,0 +1,1928 @@
+[
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fa67b0008184452021358",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530500Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fa67b0008185994899e5e",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530521Z",
+    "labels": {
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fa67b000818608bcce11d",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530528Z",
+    "labels": {
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fa67b000818677136a688",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530535Z",
+    "labels": {
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fa67b0008186dae1e20d9",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530541Z",
+    "labels": {
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fa67b0008187202a9627f",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530546Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fa67b00081877b0ad2dfd",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530551Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fa67b0008187b8f947f95",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530555Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fa67b00081880209bd991",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530560Z",
+    "labels": {
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fa67b000818856c02c57a",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530565Z",
+    "labels": {
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fa67b0008188a04e963a4",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.530570Z",
+    "labels": {
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.539398964Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fa67b00081af47504db18",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:47.531188Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc169bbe8199a90c1b0741615f6b9ae85370eccb140c95e7470ec489f848bb9beb41fc6471d55590465788bac809ebe2a56622b1bbdceaa33485c1827cfc"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:47.868434729Z"
+  },
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fa67d0006e450c032ef81",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451664Z",
+    "labels": {
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fa67d0006e45e95b3ff59",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451678Z",
+    "labels": {
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fa67d0006e46562e009ec",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451685Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fa67d0006e46b003b4922",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451691Z",
+    "labels": {
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fa67d0006e470dfb1d200",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451696Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fa67d0006e47510af75ad",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451701Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fa67d0006e47a0fd96eb3",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451706Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fa67d0006e47f97b97693",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451711Z",
+    "labels": {
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fa67d0006e485ba879d37",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451717Z",
+    "labels": {
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fa67d0006e48a149d445d",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451722Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fa67d0006e48ea1913627",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.451726Z",
+    "labels": {
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fa67d0006e7a26ea99f6d",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:49.452514Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc5e01ef9924941d0a52f61cbc1d1510bb4dacaef5e5ef7905c350987289aaa60bd51c909adc064ea07ca83c86a823b34135b021ff9ffcf079be9234aa9f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:49.535047876Z"
+  },
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fa67f0006dd9b8aa1468d",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449947Z",
+    "labels": {
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fa67f0006dda955d7a9b7",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449961Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fa67f0006ddb003c6de59",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449968Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fa67f0006ddb621c2c1a8",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449974Z",
+    "labels": {
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fa67f0006ddbb3c574b9a",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449979Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fa67f0006ddbf31ff95ae",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449983Z",
+    "labels": {
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fa67f0006ddc45b68d383",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449988Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fa67f0006ddc95bb2c877",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449993Z",
+    "labels": {
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fa67f0006ddcd2bad4e26",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.449997Z",
+    "labels": {
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fa67f0006ddd2c2de92d2",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.450002Z",
+    "labels": {
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fa67f0006ddd67a6792ea",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.450006Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fa67f0006e051e46896fc",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:51.450641Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc946d66f8765575349009851e7b118c15fe22314b15e4218976fe37a47c03efd133159c25ec6a5c90fbb4d3e98b19af8c5f005f8616b23760596764e10f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:51.531681538Z"
+  },
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fa681000733f745df8a6f",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472055Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fa68100073404a155260d",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472068Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fa6810007340b1e509cd2",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472075Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fa68100073411cbba1a65",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472081Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fa68100073415f9b2b6b6",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472085Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fa6810007341bf156e2fc",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472091Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fa6810007342147b81a55",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472097Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fa681000734282f696fc1",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472104Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fa6810007342f56309d4a",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472111Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fa6810007343563d60b72",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472117Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fa6810007343b20956418",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472123Z",
+    "labels": {
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fa6810007371508971bbb",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:53.472853Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc8e8047869e3411ca073e0d7ebd42c24bc95ef972f5813f6a1b3dfe0f737fbe9bc7acb417214f9141168b78c62aadad74ea1c2424dd7fb759b3bf95ed1f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:53.532027732Z"
+  },
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fa684000731513f429b64",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471377Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fa6840007315e2d4d2d64",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471390Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fa684000731665819e923",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471398Z",
+    "labels": {
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fa6840007316d171dc797",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471405Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fa6840007317274fced41",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471410Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fa6840007317735e53649",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471415Z",
+    "labels": {
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fa6840007317b5600f435",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471419Z",
+    "labels": {
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fa68400073180712534b6",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471424Z",
+    "labels": {
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fa68400073185c8b0998a",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471429Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fa6840007318b8cbc6ac1",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471435Z",
+    "labels": {
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fa6840007319069e9f3f2",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.471440Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fa68400073428b90b9213",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:56.472104Z",
+    "labels": {
+      "instance_id": "00a22404dc4682742b5e21dc2a74c52afcbc7611df937173d4f496dbfbeb211d820c25a0cf2edc7a59cf8c916821ae4a8f1f6929f25522f59656276f55ca8a4d108a",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:56.530286332Z"
+  },
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fa687000703a8c34821e2",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459688Z",
+    "labels": {
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fa687000703b635d74ee9",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459702Z",
+    "labels": {
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fa687000703bca650474a",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459708Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fa687000703c2fcb80cae",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459714Z",
+    "labels": {
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fa687000703c71062e1a4",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459719Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fa687000703cb075f2089",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459723Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fa687000703d02b58bf62",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459728Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fa687000703d598e679bc",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459733Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fa687000703d99e6d78e0",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459737Z",
+    "labels": {
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fa687000703de7e984c05",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459742Z",
+    "labels": {
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fa687000703e3d63da51f",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.459747Z",
+    "labels": {
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fa68700070655a3c36c95",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:37:59.460373Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dceb91486df5b13e0801872dd88d49389a9f2790b272a776180478b1aa5702f5391957a1f70529a1cbe8788b2f95ba53408781edaf297a9ae1ecbb52ed05"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:37:59.525461880Z"
+  },
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fa68f000671a8b0231820",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422312Z",
+    "labels": {
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fa68f000671b639d8ec7a",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422326Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fa68f000671bc4a4b7493",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422332Z",
+    "labels": {
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fa68f000671c12318715a",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422337Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fa68f000671c659a19e0d",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422342Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fa68f000671ca063335aa",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422346Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fa68f000671cfb9e89d2c",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422351Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fa68f000671d3b2068595",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422355Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fa68f000671d85beec0c3",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422360Z",
+    "labels": {
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fa68f000671dca4142fd8",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422364Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fa68f000671e1002be111",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422369Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fa68f00067440f62635a4",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T10:38:07.422976Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dca9cd4a44bdb4c4deae5539ea6cf1cf38bfddd4c4d9e6d1a2ca41e2978c690b973ad2294b63876e4c8fb8fbace745cf9c0cda51055ae08ee7a16cd6a1a1"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T10:38:07.517357987Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "authenticationInfo": {
+        "principalEmail": "fjpfbii4@gmail.com",
+        "principalSubject": "user:fjpfbii4@gmail.com"
+      },
+      "requestMetadata": {
+        "callerIp": "2405:6585:e0:2e00:f80e:77d7:33f3:7abb",
+        "callerSuppliedUserAgent": "FirebaseCLI/13.7.2,gzip(gfe),gzip(gfe)",
+        "requestAttributes": {
+          "time": "2024-04-17T11:05:27.411417Z",
+          "auth": {}
+        },
+        "destinationAttributes": {}
+      },
+      "serviceName": "cloudfunctions.googleapis.com",
+      "methodName": "google.cloud.functions.v1.CloudFunctionsService.UpdateFunction",
+      "authorizationInfo": [
+        {
+          "resource": "projects/nagoyaisenportalfetch/locations/us-central1/functions/api",
+          "permission": "cloudfunctions.functions.update",
+          "granted": true,
+          "resourceAttributes": {},
+          "permissionType": "ADMIN_WRITE"
+        }
+      ],
+      "resourceName": "projects/nagoyaisenportalfetch/locations/us-central1/functions/api",
+      "request": {
+        "function": {
+          "name": "projects/nagoyaisenportalfetch/locations/us-central1/functions/api",
+          "sourceUploadUrl": "https://storage.googleapis.com/uploads-915626326469.us-central1.cloudfunctions.appspot.com/b532241a-bc83-4dc6-a99f-aa1e2a0f4662.zip?GoogleAccessId=service-515683682608@gcf-admin-robot.iam.gserviceaccount.com&Expires=1713353722&Signature=SzkJxZyJSlvuHyTtIBvtzYR6Na9Az13yhw6TAAYQv8up3JyvdJyLIp78QYHpwfr96FJ0A8e3ZkMbRP6Vl5IuiqCM8hAungHXUAI4rmsDybsinwzMXrrf%2B2sGkf4QASRgasAoWvl46EoaTxycTN5kzQP9l7ywSAYTYV3eEK%2FyOKVH5gpzjwz5FKTfHsZ8heBldjZrd9XHm%2BCMm8ECZqqJGgO3qYOcIsf7HFvms7Pj23mWnQg45NTPVDcH2KEkP3Nd01qARJ50e%2BGloX9orysk2c7MqE5dX0c%2FclsggCIisBQ4xutwW4Fi2SSlB8ZVOjz3TQG0iqr62mQaNqK4io1PZg%3D%3D",
+          "entryPoint": "api",
+          "runtime": "nodejs20",
+          "dockerRegistry": "ARTIFACT_REGISTRY",
+          "labels": {
+            "deployment-tool": "cli-firebase",
+            "firebase-functions-hash": "da08415bbac5527ce8a0614b5f9dc3206a34e800"
+          },
+          "httpsTrigger": {
+            "securityLevel": "SECURE_ALWAYS"
+          }
+        },
+        "updateMask": "name,sourceUploadUrl,entryPoint,runtime,dockerRegistry,labels,httpsTrigger.securityLevel,minInstances,maxInstances,ingressSettings,environmentVariables,serviceAccountEmail,availableMemoryMb,timeout,vpcConnector,vpcConnectorEgressSettings,sourceToken,buildEnvironmentVariables",
+        "@type": "type.googleapis.com/google.cloud.functions.v1.UpdateFunctionRequest"
+      },
+      "resourceLocation": {
+        "currentLocations": [
+          "us-central1"
+        ]
+      }
+    },
+    "insertId": "63y9vsd9ai6",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T11:05:27.011369Z",
+    "severity": "NOTICE",
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/bmFnb3lhaXNlbnBvcnRhbGZldGNoL3VzLWNlbnRyYWwxL2FwaS91OUdJWVFIZWJ6SQ",
+      "producer": "cloudfunctions.googleapis.com",
+      "first": true
+    },
+    "receiveTimestamp": "2024-04-17T11:05:27.848207030Z"
+  },
+  {
+    "textPayload": "Provided module can't be loaded.",
+    "insertId": "661fad35000329f478f71432",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207348Z",
+    "labels": {
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "Did you list all required modules in the package.json dependencies?",
+    "insertId": "661fad3500032a082bd70264",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207368Z",
+    "labels": {
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "Detailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js",
+    "insertId": "661fad3500032a0ee0264700",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207374Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at finalizeResolution (node:internal/modules/esm/resolve:265:11)",
+    "insertId": "661fad3500032a1395d329ff",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207379Z",
+    "labels": {
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at moduleResolve (node:internal/modules/esm/resolve:933:10)",
+    "insertId": "661fad3500032a1831c948b5",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207384Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at defaultResolve (node:internal/modules/esm/resolve:1157:11)",
+    "insertId": "661fad3500032a1dd24a01e6",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207389Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)",
+    "insertId": "661fad3500032a215bc3cc4e",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207393Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)",
+    "insertId": "661fad3500032a25dd0e7519",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207397Z",
+    "labels": {
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)",
+    "insertId": "661fad3500032a2a2dac9c09",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "function_name": "api",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207402Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)",
+    "insertId": "661fad3500032a2f592e9f75",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api",
+        "region": "us-central1"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207407Z",
+    "labels": {
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00",
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "    at link (node:internal/modules/esm/module_job:86:36)",
+    "insertId": "661fad3500032a33d44303d4",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "function_name": "api",
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207411Z",
+    "labels": {
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.210672501Z"
+  },
+  {
+    "textPayload": "Could not load the function, shutting down.",
+    "insertId": "661fad3500032c41eb1e3fdf",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "project_id": "nagoyaisenportalfetch",
+        "region": "us-central1",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:29.207937Z",
+    "labels": {
+      "instance_id": "00a22404dc69629229fd5f906718c0430f22cc1b5437fba30c7de629f805b86c13701d4e8cb164f52558320c5c867cf1bd47ecfc4d3e0558ca0f900c799bc86f",
+      "runtime_version": "nodejs20_20240404a_20_12_1_RC00"
+    },
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudfunctions.googleapis.com%2Fcloud-functions",
+    "receiveTimestamp": "2024-04-17T11:06:29.543918228Z"
+  },
+  {
+    "protoPayload": {
+      "@type": "type.googleapis.com/google.cloud.audit.AuditLog",
+      "status": {
+        "code": 3,
+        "message": "Function failed on loading user code. This is likely due to a bug in the user code. Error message: Provided module can't be loaded.\nDid you list all required modules in the package.json dependencies?\nDetailed stack trace: Error [ERR_MODULE_NOT_FOUND]: Cannot find module '/backend/src/server.js' imported from /workspace/index.js\n    at finalizeResolution (node:internal/modules/esm/resolve:265:11)\n    at moduleResolve (node:internal/modules/esm/resolve:933:10)\n    at defaultResolve (node:internal/modules/esm/resolve:1157:11)\n    at ModuleLoader.defaultResolve (node:internal/modules/esm/loader:390:12)\n    at ModuleLoader.resolve (node:internal/modules/esm/loader:359:25)\n    at ModuleLoader.getModuleJob (node:internal/modules/esm/loader:234:38)\n    at ModuleWrap.<anonymous> (node:internal/modules/esm/module_job:87:39)\n    at link (node:internal/modules/esm/module_job:86:36)\nCould not load the function, shutting down.. Please visit https://cloud.google.com/functions/docs/troubleshooting for in-depth troubleshooting documentation."
+      },
+      "authenticationInfo": {},
+      "serviceName": "cloudfunctions.googleapis.com",
+      "methodName": "google.cloud.functions.v1.CloudFunctionsService.UpdateFunction",
+      "resourceName": "projects/nagoyaisenportalfetch/locations/us-central1/functions/api"
+    },
+    "insertId": "-27dhrgd1jom",
+    "resource": {
+      "type": "cloud_function",
+      "labels": {
+        "region": "us-central1",
+        "project_id": "nagoyaisenportalfetch",
+        "function_name": "api"
+      }
+    },
+    "timestamp": "2024-04-17T11:06:32.905117Z",
+    "severity": "ERROR",
+    "logName": "projects/nagoyaisenportalfetch/logs/cloudaudit.googleapis.com%2Factivity",
+    "operation": {
+      "id": "operations/bmFnb3lhaXNlbnBvcnRhbGZldGNoL3VzLWNlbnRyYWwxL2FwaS91OUdJWVFIZWJ6SQ",
+      "producer": "cloudfunctions.googleapis.com",
+      "last": true
+    },
+    "receiveTimestamp": "2024-04-17T11:06:33.138053093Z"
+  }
+]

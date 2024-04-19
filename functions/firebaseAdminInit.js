@@ -1,5 +1,5 @@
 import admin from 'firebase-admin';
-import serviceAccount from '../nagoyaisen-app-firebase-adminsdk-n99a8-56c5212028.json' assert { type: 'json' };
+import serviceAccount from './nagoyaisen-app-firebase-adminsdk-n99a8-56c5212028.json' assert { type: 'json' };
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -68,4 +68,4 @@ async function uploadStream(stream, originalDestination, sessionId) {
   });
 }
 
-export { admin, firestore, uploadStream };
+export { admin, firestore, bucket, uploadStream };
